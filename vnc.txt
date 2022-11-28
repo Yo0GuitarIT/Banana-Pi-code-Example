@@ -1,12 +1,15 @@
-1.VNC­
-1.server <-->viewer
+連結方式VNC­
+準備
+1.server （banana pi 或 raspberry pi)
+2.viewer  (其他電腦 並安裝vnc viewer）
+##需連結在同個網域
 
-server--terminal
+server--terminal指令
 >> sudo apt-get update
 >> sudo apt-get install lightdm
 >> sudo reboot
 >> sudo apt-get install x11vnc
->> ip address show
+>> ip address show（記住up inet那行）
 >> x11vnc
 
 
