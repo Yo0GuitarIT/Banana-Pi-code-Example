@@ -1,0 +1,13 @@
+1.VNC­
+1.server <-->viewer
+
+server--terminal
+>> sudo apt-get update
+>> sudo apt-get install lightdm
+>> sudo reboot
+>> sudo apt-get install x11vnc
+>> ip address show
+>> x11vnc
+
+
+open pc vnc to connect ip
