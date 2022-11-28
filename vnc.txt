@@ -9,7 +9,7 @@ server--terminal指令
 >> sudo apt-get install lightdm
 >> sudo reboot
 >> sudo apt-get install x11vnc
->> ip address show（記住up inet那行）
+>> ip address show（記住inet那行192. ...）
 >> x11vnc
 
 
